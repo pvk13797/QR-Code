@@ -1,8 +1,3 @@
-img{
-    max-width: 100%;
-    width: auto;
-    height: auto;
-}
 // QR Code Section
 .qr_section{
     display: flex;
@@ -36,6 +31,12 @@ img{
             height: 288px;
             background: url('../assets/image/oval.png') no-repeat center center;
             border-radius: 8px;
+
+            img{
+                max-width: 100%;
+                width: auto;
+                height: auto;
+            }
         }
 
         .qr_content{
